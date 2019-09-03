@@ -91,3 +91,7 @@ Luego si lo tenemos, tan solo es ejecutar el siguiente comando que nos instalar�
 * `pip install -r requirements.txt` 
 
 *Para más información sobre ambientes virtuales ver el enlace* [Virtual Environments and Packages](https://docs.python.org/3/tutorial/venv.html)
+
+Si hay problemas con pip, podemos desistalarlo y volverlo a instalar usando
+
+- `sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall`
